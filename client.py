@@ -1,3 +1,5 @@
+#the client 
+
 import os
 from socket import *
 host = "127.0.0.1" # IP address of target
