@@ -1,14 +1,14 @@
-
+#the server
 
 import os
 from socket import *
-host = ""
+host = "192.168.41.20" #example ip host
 port = 13000
 buf = 1024
 addr = (host, port)
 UDPSock = socket(AF_INET, SOCK_DGRAM)
 UDPSock.bind(addr)
-print "Waiting for messages..."
+print "Waiting messages..."
 while True:
     (data, addr) = UDPSock.recvfrom(buf)
     print "Received: " + data
