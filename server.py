@@ -2,7 +2,7 @@
 
 import os
 from socket import *
-host = "192.168.41.20" #example ip host
+host = "192.168.10.20" #example ip host
 port = 13000
 buf = 1024
 addr = (host, port)
