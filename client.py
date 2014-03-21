@@ -2,7 +2,7 @@
 
 import os
 from socket import *
-host = "127.0.0.1" # IP address of target
+host = "192.168.10.23" # IP address of target
 port = 13000
 addr = (host, port)
 UDPSock = socket(AF_INET, SOCK_DGRAM)
